@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Inzeráty</title>
+		
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<meta name="description" content="Inzeráty na hledání prací nebo poskytnutí práce v České republice">
+    	<meta name="keywords" content="inzeráty, práce, hledání práce">
+    	<meta name="author" content="Lam Duyet">
+    	
+    	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700|Montserrat:400,700&subset=latin,vietnamese' rel='stylesheet' type='text/css'>
+
+    	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    	<link rel="stylesheet" href="css/normalize.css">
+    	<link rel="stylesheet" href="css/main.css">
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    	<script src="js/main.js"></script>
+
+	</head>
+	<body>
+		
+		<!-- NAVIGATION -->
+		<header id="header" class="group">
+		<div class="container">
+			<ul>
+				<li><i class="fa fa-bars menu-bars"></i></li>
+				<!-- <li><img src="img/logo.png"></li> -->
+				<li><i class="fa fa-search menu-search"></i></li>
+			</ul>
+			</div><!-- end .container -->
+		</header><!-- end #header -->
+
+		<!-- SEARCH -->
+		<div class="search">
+		<div class="container">
+			<form action="" method="post">
+				<input type="text">
+				<button type="submit"><i class="fa fa-search"></i></button>
+			</form>
+			</div><!--end .container -->
+		</div><!--end .search -->
+
+		<!-- MENU -->
+		<nav id="menu">
+		<div class="container">
+		<div class="menu-close"><i class="fa fa-times"></i></div>
+			<ul>
+				<li><a href="#">Trang chủ</a></li>
+				<li><a href="#">Dăng tin</a></li>
+
+			</ul>
+		</div><!--end .container -->
+
+		</nav><!-- end #menu-->
+
+		<!-- MAIN SECTION -->
+		<div id="main" class="group">
+		<div class="container">
+			<div class="addnew">
+				<a href="#"><i class="fa fa-plus"></i>  Dăng tin</a>
+			</div><!-- end .addnew -->
+			
+			<div class="sort-category">
+				<form action="">
+					<select name="filtercategory" id="filtercategory">
+						<option value="">Potraviny</option>
+					</select>
+				</form>
+			</div><!-- end .category -->
+
+			<!--options -->
+			<div class="options group">
+				<ul>
+					<li><a href="#">Việc tìm người</a></li>
+					<li class="selected"><a href="#">Người tìm việc</a></li>
+				</ul>
+			</div><!-- end .options -->
+
+			<!-- SORT LOCATION -->
+			<div class="sort-location">
+				<form action="index_submit" method="get" accept-charset="utf-8">
+					<select name="filterlocation" id="filterlocation">
+						<option value="">Prague</option>
+						<option value="">Cheb</option>
+						
+					</select>
+				</form>
+
+			</div><!--end sort-location -->
+			<!--SORT TOPIC -->
+			<div class="sort">
+				<form action="index_submit" method="get" accept-charset="utf-8">
+					<select name="filtertopics" id="filtertopics">
+						<option value="">Mới nhất</option>
+						<option value="">Xem nhiều nhất</option>
+						<option value="">Lương cao nhất</option>
+					</select>
+				</form>
+			</div><!--end .sort -->
+
+			<section>
+				<img src="img/image.jpg" alt="image">
+				<h2><i class="fa fa-user"></i> Duc Lam Van</h2>
+				<p class="date">Added 2.5.2015</p>
+				<p class="description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Aliquam ornare wisi eu metus. Proin in tellus sit amet nibh dignissim sagittis. Suspendisse sagittis ultrices augue.</p>
+
+				<dl>
+					<dt class="address">Địa chỉ:</dt>
+						<dd>Praha</dd>
+					<dt class="phone">Số đt:</dt>
+						<dd>123 456 789</dd>
+				</dl>
+				
+				
+			</section><!--end section -->
+		</div><!-- end .container -->
+		</div><!-- end #main -->
+
+		<!-- FOOTER -->
+		<footer id="footer">
+		<div class="container">
+			<p>Copyright 2015 Lam's Design</p>
+			<p class="language">Language <i class="fa fa-chevron-up"></i></p>
+		</div><!--end .container -->	
+		</footer><!--end #footer -->
+		
+		<!--SEARCH -->
+		<div class="language-options">
+
+			<ul>
+
+				<li><a href="">Czech</a></li>
+				<li><a href="">Vietnamese</a></li>
+				<li class="language-options-close"><i class="fa fa-chevron-down"></i></li>
+			</ul>
+		</div><!--end .language-options -->
+	</body>
+</html>
