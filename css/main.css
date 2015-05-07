@@ -111,12 +111,6 @@ select {
     border-radius: 3px;
     padding: 0.1rem 0.3rem; }
 
-#choose {
-  font-size: 1.25rem;
-  margin-bottom: 10px;
-  text-align: center;
-  font-weight: bold; }
-
 .sort-category {
   margin: 0 auto 0.9875rem;
   width: 100%; }
@@ -196,7 +190,7 @@ select {
   font-size: 1rem;
   color: #234f5d;
   padding: 0 0.6rem;
-  margin-bottom: 0.425rem; }
+  margin-bottom: 0.175rem; }
 
 #main section p {
   padding: 0 0.6rem;
@@ -205,8 +199,7 @@ select {
 .date {
   margin-bottom: 0;
   color: #316F82;
-  font-size: 0.8rem;
-  font-family: 'Montserrat'; }
+  font-size: 0.8rem; }
 
 .description {
   clear: both; }

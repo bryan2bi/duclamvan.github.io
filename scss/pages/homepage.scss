@@ -130,13 +130,6 @@ select {outline: none}
 	}
 }
 
-#choose {
-	font-size: rem(20);
-	margin-bottom: 10px;
-	text-align: center;
-	font-weight: bold;
-}
-
 .sort-category {
 	margin: 0 auto rem(15.8);
 	width: 100%;
@@ -243,7 +236,7 @@ select {outline: none}
   	font-size: rem(16);
   	color: darken(#316F82,10%);
   	padding: 0 rem(9.6);
-  	margin-bottom: rem(6.8);
+  	margin-bottom: rem(2.8);
 }
 
 #main section p {
@@ -256,7 +249,6 @@ select {outline: none}
 	margin-bottom: 0;
 	color: #316F82;
 	font-size: rem(12.8);
-	font-family: 'Montserrat';
 }
 
 .description{
