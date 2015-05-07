@@ -32,6 +32,9 @@ ul {
 a {
   text-decoration: none; }
 
+select {
+  outline: none; }
+
 /* HEADER
 ========================= */
 #header {
@@ -40,8 +43,8 @@ a {
   background: -webkit-linear-gradient(-90deg, #343051 28.49%, #2f2c4b 38.34%, #1f1f37 78.77%, #1f1f37 100%);
   color: #ecf0f1;
   font-size: 1.2rem;
-  height: 2.75rem;
-  line-height: 2.75rem; }
+  height: 3.375rem;
+  line-height: 3.375rem; }
 
 #header ul {
   margin: 0; }
@@ -91,11 +94,8 @@ a {
 
 /* SORTING & FILTERING
 ========================= */
-#main {
-  background: #ecf0f1;
-  padding: 2rem 0 0; }
-
 .addnew {
+  margin: 1.875rem 0;
   text-align: center;
   height: 48px;
   background: #72EA68;
@@ -111,8 +111,14 @@ a {
     border-radius: 3px;
     padding: 0.1rem 0.3rem; }
 
+#choose {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: bold; }
+
 .sort-category {
-  margin: 1.3rem auto;
+  margin: 0 auto 0.9875rem;
   width: 100%; }
 
 .sort-category select {
@@ -124,6 +130,9 @@ a {
   color: #B7B7B7;
   text-align: center;
   padding: 0.5rem; }
+
+.options {
+  margin-top: 20px; }
 
 .options li {
   text-align: center;
@@ -163,7 +172,7 @@ a {
   border-radius: 5px;
   background: #95a5a6;
   width: 100%;
-  padding: 0.5rem 1rem; }
+  padding: 0.5rem 0.5rem; }
   .sort-location select:hover, .sort select:hover {
     cursor: pointer; }
 
@@ -184,22 +193,20 @@ a {
   margin-bottom: 0.7rem; }
 
 #main section h2 {
-  float: left;
-  font-size: 0.875rem;
-  color: #B7B7B7;
+  font-size: 1rem;
+  color: #234f5d;
   padding: 0 0.6rem;
-  margin-bottom: 0.8rem; }
+  margin-bottom: 0.425rem; }
 
 #main section p {
   padding: 0 0.6rem;
   margin-bottom: 0.7rem; }
 
 .date {
-  float: right;
-  text-align: right;
   margin-bottom: 0;
   color: #316F82;
-  font-size: 0.925rem; }
+  font-size: 0.8rem;
+  font-family: 'Montserrat'; }
 
 .description {
   clear: both; }
@@ -210,7 +217,8 @@ dl {
   overflow: hidden; }
 
 dd {
-  float: left; }
+  float: left;
+  font-weight: bold; }
 
 #main section dt img {
   width: 18px; }
@@ -221,22 +229,15 @@ dt {
   float: left;
   clear: both;
   margin-right: 5px; }
+  dt i {
+    width: 20px;
+    text-align: center; }
 
 .address {
   color: #469FCC; }
 
 .phone {
   color: maroon; }
-
-.address::before, .phone::before {
-  content: '';
-  background: url("../images/compass.png") center no-repeat;
-  width: 30px;
-  height: 20px;
-  float: left; }
-
-.phone::before {
-  background: url("../images/iphone.png") center no-repeat; }
 
 /* FOOTER
 ========================= */

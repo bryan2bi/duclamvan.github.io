@@ -25,6 +25,8 @@ ul { list-style: none;}
 
 a {text-decoration: none;}
 
+select {outline: none}
+
 
 /* HEADER
 ========================= */
@@ -104,11 +106,12 @@ a {text-decoration: none;}
 ========================= */
 
 #main {
-	background: $clouds;
-	padding: 2rem 0 0;
+	// background: $clouds;
+	// padding: 2rem 0 0;
 }
 
 .addnew {
+	margin: rem(30) 0;
 	text-align: center;
 	height: $buttonheight;
 	background: #72EA68;
@@ -127,8 +130,15 @@ a {text-decoration: none;}
 	}
 }
 
+#choose {
+	font-size: rem(20);
+	margin-bottom: 10px;
+	text-align: center;
+	font-weight: bold;
+}
+
 .sort-category {
-	margin: rem(20.8) auto;
+	margin: 0 auto rem(15.8);
 	width: 100%;
 }
 
@@ -142,6 +152,10 @@ a {text-decoration: none;}
 	color : #B7B7B7;
 	text-align: center;
 	padding: rem(8);
+}
+
+.options {
+	margin-top: 20px;
 }
 
 .options li {
@@ -196,7 +210,7 @@ a {text-decoration: none;}
 	border-radius: 5px;
 	background: $grey;
 	width:100%;
-	padding:rem(8) rem(16);
+	padding:rem(8) rem(8);
 	&:hover {
 		cursor:pointer;
 	}
@@ -225,11 +239,11 @@ a {text-decoration: none;}
 }
  
 #main section h2 {
-  	float: left;
-  	font-size: rem(14);
-  	color: #B7B7B7;
+  	// float: left;
+  	font-size: rem(16);
+  	color: darken(#316F82,10%);
   	padding: 0 rem(9.6);
-  	margin-bottom: rem(12.8);
+  	margin-bottom: rem(6.8);
 }
 
 #main section p {
@@ -238,11 +252,11 @@ a {text-decoration: none;}
 }
 
 .date{
-	float:right;
-	text-align: right;
+	// text-align: right;
 	margin-bottom: 0;
-	color:#316F82;
-	font-size: rem(14.8);
+	color: #316F82;
+	font-size: rem(12.8);
+	font-family: 'Montserrat';
 }
 
 .description{
@@ -250,7 +264,7 @@ a {text-decoration: none;}
 }
 
 dl {padding: 0 rem(9.6); margin-top: 20px; overflow: hidden;}
-dd {float: left}
+dd {float: left; font-weight: bold;}
 
 
 #main section dt img {
@@ -263,6 +277,10 @@ dt {
 	float: left;
 	clear: both;
 	margin-right: 5px;
+	i {
+		width: 20px;
+		text-align: center;
+	}
 }
 
 .address {
@@ -271,19 +289,6 @@ dt {
 
 .phone {
 	color:maroon;
-}
-
-.address::before {
-	content: '';
-	background: url('../images/compass.png') center no-repeat;
-	width: 30px;
-	height: 20px;
-	float: left;
-}
-
-.phone::before {
-	@extend .address::before;
-	background: url('../images/iphone.png') center no-repeat;
 }
 
 /* FOOTER
