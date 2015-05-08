@@ -11,7 +11,7 @@
 
 body {
 	font-family: 'Open Sans';
-	font-size: 16px;
+	font-size: rem(16);
 }
 
 html,body {height: 100%;}
@@ -70,7 +70,7 @@ select {outline: none}
 
 #header hr {
 	position: relative;
-	top: 10px;
+	top: rem(10);
 	clear: both;
 	opacity: 0.8;
 }
@@ -89,32 +89,25 @@ select {outline: none}
 	margin-top: rem(10);
 }
 
-// #header p:first-child{
-// 	margin-top: 100%;
-// 	position: relative;
-// 	top: 20%;
-// 	background: red;
-// }
-
 #feat-button {
 	border: 2px solid white;
 	border-radius: 100px;
-	padding: 8px;
-	width: 130px;
-	height: 40px;
+	padding: rem(8);
+	width: rem(130);
+	height: rem(40);
 	// left: 50%;
 	display: block;
 	margin: auto;
 	position: relative;
-	margin-top: 30px;
+	margin-top: rem(30);
 }
 
 #feat-button div:first-child {
 	border: 2px solid white;
 	border-radius: 100%;
 	margin-left: 3px;
-	width: 25px;
-	height: 25px;
+	width: rem(25);
+	height: rem(25);
 	margin: auto;
 	position: absolute;
 	top: 0;
@@ -127,24 +120,24 @@ select {outline: none}
 	width: 100%;
 	height: 100%;
 	text-align: center;
-	line-height: 25px;
+	line-height: rem(25);
 	float: left;
 }
 
 #feat-button div:nth-child(2) {
 	display: inline-block;
-	line-height: 20px;
+	line-height: rem(20);
 	width: 100%;
 	float: left;
 	text-align: center;
 	font-size: 0.8rem;
-	padding-left: 25px;
+	padding-left: rem(25);
 }
 
 #logo-feat {
 	margin: 20% auto 0;
 	display: block;
-	width: 100px;
+	width: rem(100);
 }
 
 #feat-img h1 {
@@ -206,7 +199,7 @@ select {outline: none}
 
 #main {
 	// background: $clouds;
-	padding: 32px 0 0;
+	padding: rem(32) 0 0;
 	// margin-top: 2rem;
 }
 
@@ -237,8 +230,8 @@ select {outline: none}
 
 .sort-category select {
 	width: 100%;
-	height: $buttonheight -10px;
-	line-height: $buttonheight -10px;
+	height: $buttonheight - rem(10);
+	line-height: $buttonheight - rem(10);
 	// border-radius: 5px;
 	border-color : #B7B7B7;
 	background: $clouds;
@@ -320,7 +313,7 @@ select {outline: none}
 
 #main section {
 	width: 100%;
-	border: 2px solid #898989;
+	border: 1px solid #B7B7B7;
 	padding: 0 0 rem(16);
 	clear: both;
 }
@@ -359,7 +352,7 @@ select {outline: none}
 
 dl {
 	padding: 0 rem(9.6);
-	margin-top: 20px;
+	margin-top: rem(20);
 	overflow: hidden;
 	font-size: rem(16);
 }
@@ -367,7 +360,7 @@ dd {float: left; font-weight: bold;}
 
 
 #main section dt img {
-	width: 18px;
+	width: rem(18);
 }
 
 dt {
@@ -376,7 +369,7 @@ dt {
 	clear: both;
 	margin-right: 5px;
 	i {
-		width: 20px;
+		width: rem(20);
 		text-align: center;
 	}
 }
@@ -393,7 +386,7 @@ dt {
 ========================= */
 
 #footer {
-	margin-top: 20px;
+	margin-top: rem(60);
 	background:#272B2E;
 	padding: rem(32) 0;
 	font-style : italic;
