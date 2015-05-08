@@ -1,5 +1,12 @@
 var main = function() {
-
+  
+  // carret down
+  $('#caret-down').click(function() {
+    $('html,body').animate({
+        scrollTop: $("#main").offset().top},
+        'slow');
+  })
+  
     /* Open Menu*/
   $('.menu-bars').click(function() {
     $('#menu').animate( { left: "0rem"
