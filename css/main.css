@@ -113,8 +113,9 @@ select {
   text-align: center; }
 
 #logo-feat {
-  margin: 20% auto 0;
-  display: block; }
+  margin: 15% auto 15%;
+  display: block;
+  width: 150px; }
 
 #feat-img h1 {
   float: left; }
@@ -255,7 +256,6 @@ select {
 #main section h2 {
   margin-top: 0.5125rem;
   font-size: 1rem;
-  color: #234f5d;
   padding: 0 0.6rem;
   margin-bottom: 0.175rem; }
 
@@ -265,8 +265,8 @@ select {
 
 .date {
   margin-bottom: 0;
-  color: #316F82;
-  font-size: 0.7375rem; }
+  color: #333333;
+  font-size: 0.875rem; }
 
 .description {
   clear: both; }
@@ -275,7 +275,7 @@ dl {
   padding: 0 0.6rem;
   margin-top: 20px;
   overflow: hidden;
-  font-size: 0.875rem; }
+  font-size: 1rem; }
 
 dd {
   float: left;

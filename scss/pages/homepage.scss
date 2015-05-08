@@ -127,8 +127,9 @@ select {outline: none}
 }
 
 #logo-feat {
-	margin: 20% auto 0;
+	margin: 15% auto 15%;
 	display: block;
+	width: 150px;
 }
 
 #feat-img h1 {
@@ -309,12 +310,13 @@ select {outline: none}
 	width: 100%;
 	height: auto;
 }
- 
+
+// username
 #main section h2 {
   	// float: left;
   	margin-top: rem(8.2);
   	font-size: rem(16);
-  	color: darken(#316F82,10%);
+  	// color: darken(#316F82,10%);
   	padding: 0 rem(9.6);
   	margin-bottom: rem(2.8);
 }
@@ -327,8 +329,9 @@ select {outline: none}
 .date{
 	// text-align: right;
 	margin-bottom: 0;
-	color: #316F82;
-	font-size: rem(11.8);
+	color: lighten(black,20%);
+	// color: #316F82;
+	font-size: rem(14);
 }
 
 .description{
@@ -339,7 +342,7 @@ dl {
 	padding: 0 rem(9.6);
 	margin-top: 20px;
 	overflow: hidden;
-	font-size: rem(14);
+	font-size: rem(16);
 }
 dd {float: left; font-weight: bold;}
 
