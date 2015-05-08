@@ -71,7 +71,7 @@ select {outline: none}
 	position: relative;
 	top: 10px;
 	clear: both;
-	opacity: 0.6;
+	opacity: 0.8;
 }
 
 #header p {
@@ -186,11 +186,11 @@ select {outline: none}
 
 #main {
 	// background: $clouds;
-	// padding: 2rem 0 0;
+	padding: 2rem 0 0;
 }
 
 .addnew {
-	margin: rem(30) 0;
+	margin-bottom: rem(30);
 	text-align: center;
 	height: $buttonheight;
 	background: #72EA68;
