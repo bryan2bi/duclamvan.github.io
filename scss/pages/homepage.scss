@@ -85,7 +85,7 @@ select {outline: none}
 }
 
 #header p:first-child{
-	margin-top: 20%;
+	margin-top: 40%;
 }
 
 #feat-button {
@@ -227,6 +227,10 @@ select {outline: none}
 	padding: rem(8);
 }
 
+.options {
+	margin-top: rem(40);
+}
+
 .options li {
 	text-align: center;
 	border-bottom: 1px solid #DDDDE5;
@@ -264,7 +268,7 @@ select {outline: none}
 	color: black;
 	display: block;
 	font-weight: bold;
-	font-size: rem(13.6);
+	font-size: rem(15.6);
 }
 
 .sort-location {
@@ -304,11 +308,11 @@ select {outline: none}
 #main section img {
 	width: 100%;
 	height: auto;
-	margin-bottom: rem(11.2);
 }
  
 #main section h2 {
   	// float: left;
+  	margin-top: rem(8.2);
   	font-size: rem(16);
   	color: darken(#316F82,10%);
   	padding: 0 rem(9.6);
@@ -324,14 +328,19 @@ select {outline: none}
 	// text-align: right;
 	margin-bottom: 0;
 	color: #316F82;
-	font-size: rem(12.8);
+	font-size: rem(11.8);
 }
 
 .description{
 	clear:both;
 }
 
-dl {padding: 0 rem(9.6); margin-top: 20px; overflow: hidden;}
+dl {
+	padding: 0 rem(9.6);
+	margin-top: 20px;
+	overflow: hidden;
+	font-size: rem(14);
+}
 dd {float: left; font-weight: bold;}
 
 
@@ -340,7 +349,6 @@ dd {float: left; font-weight: bold;}
 }
 
 dt {
-	font-size: rem(16);
 	font-weight: bold;
 	float: left;
 	clear: both;
