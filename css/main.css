@@ -43,7 +43,8 @@ select {
   color: #ecf0f1;
   font-size: 1.2rem;
   height: 100%;
-  padding-top: 1rem; }
+  padding-top: 1rem;
+  position: relative; }
 
 #header ul {
   margin: 0; }
@@ -68,23 +69,23 @@ select {
   clear: both;
   opacity: 0.8; }
 
+#feat-p {
+  margin-top: 40%; }
+
 #header p {
   text-align: center;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   position: relative; }
 
 #header p + p {
   margin-top: 0.625rem; }
 
-#header p:first-child {
-  margin-top: 40%; }
-
 #feat-button {
   border: 2px solid white;
   border-radius: 100px;
   padding: 8px;
-  width: 200px;
-  height: 60px;
+  width: 130px;
+  height: 40px;
   display: block;
   margin: auto;
   position: relative;
@@ -94,38 +95,49 @@ select {
   border: 2px solid white;
   border-radius: 100%;
   margin-left: 3px;
-  width: 40px;
-  height: 40px;
-  float: left; }
+  width: 25px;
+  height: 25px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0; }
 
 #feat-button div i {
   display: inline-block;
+  font-size: 0.6em;
   width: 100%;
+  height: 100%;
   text-align: center;
-  line-height: 40px; }
+  line-height: 25px;
+  float: left; }
 
 #feat-button div:nth-child(2) {
   display: inline-block;
-  line-height: 40px;
-  width: calc(100%-43px);
-  width: 70%;
+  line-height: 20px;
+  width: 100%;
   float: left;
-  text-align: center; }
+  text-align: center;
+  font-size: 0.8rem;
+  padding-left: 25px; }
 
 #logo-feat {
-  margin: 15% auto 15%;
+  margin: 20% auto 0;
   display: block;
-  width: 150px; }
+  width: 100px; }
 
 #feat-img h1 {
   float: left; }
 
 #caret-down {
   position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
   bottom: 0;
-  left: 50%;
   font-size: 3em;
-  cursor: pointer; }
+  cursor: pointer;
+  text-align: center; }
 
 .search {
   background: white;

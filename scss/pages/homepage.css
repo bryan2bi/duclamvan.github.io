@@ -1,0 +1,65 @@
+/*
+Error: Undefined variable: "$clouds".
+        on line 40 of C:\Users\Diet\Documents\GitHub\duclamvan.github.io\scss\pages\homepage.scss
+
+35: 	// background : -moz-linear-gradient(50% -4.49% -90deg,rgba(52, 48, 81, 1) 28.49%,rgba(47, 44, 75, 1) 38.34%,rgba(31, 31, 55, 1) 78.77%,rgba(31, 31, 55, 1) 100%);
+36: 	// background : -o-linear-gradient(-90deg, rgba(52, 48, 81, 1) 28.49%, rgba(47, 44, 75, 1) 38.34%, rgba(31, 31, 55, 1) 78.77%, rgba(31, 31, 55, 1) 100%);
+37: 	// background : -webkit-linear-gradient(-90deg, rgba(52, 48, 81, 1) 28.49%, rgba(47, 44, 75, 1) 38.34%, rgba(31, 31, 55, 1) 78.77%, rgba(31, 31, 55, 1) 100%);
+38: 	background: url('../images/featured-final.png') no-repeat;
+39: 	background-size: cover;
+40: 	color: $clouds;
+41: 	font-size: rem(19.2);
+42: 	height: $headerheight;
+43: 	padding-top: rem(16);
+44: }
+45: 
+
+Backtrace:
+C:\Users\Diet\Documents\GitHub\duclamvan.github.io\scss\pages\homepage.scss:40
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/script/tree/variable.rb:49:in `_perform'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/script/tree/node.rb:50:in `perform'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:384:in `visit_prop'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `block in with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `block (2 levels) in visit_rule'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `map'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `block in visit_rule'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:418:in `visit_rule'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `block in with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:157:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:8:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:285:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:396:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:62:in `process_result'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/bin/sass:13:in `<top (required)>'
+C:/Program Files (x86)/Koala/bin/sass:18:in `load'
+C:/Program Files (x86)/Koala/bin/sass:18:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$clouds\".\A         on line 40 of C:\Users\Diet\Documents\GitHub\duclamvan.github.io\scss\pages\homepage.scss\A \A 35: 	// background : -moz-linear-gradient(50% -4.49% -90deg,rgba(52, 48, 81, 1) 28.49%,rgba(47, 44, 75, 1) 38.34%,rgba(31, 31, 55, 1) 78.77%,rgba(31, 31, 55, 1) 100%);\A 36: 	// background : -o-linear-gradient(-90deg, rgba(52, 48, 81, 1) 28.49%, rgba(47, 44, 75, 1) 38.34%, rgba(31, 31, 55, 1) 78.77%, rgba(31, 31, 55, 1) 100%);\A 37: 	// background : -webkit-linear-gradient(-90deg, rgba(52, 48, 81, 1) 28.49%, rgba(47, 44, 75, 1) 38.34%, rgba(31, 31, 55, 1) 78.77%, rgba(31, 31, 55, 1) 100%);\A 38: 	background: url('../images/featured-final.png') no-repeat;\A 39: 	background-size: cover;\A 40: 	color: $clouds;\A 41: 	font-size: rem(19.2);\A 42: 	height: $headerheight;\A 43: 	padding-top: rem(16);\A 44: }\A 45: "; }
