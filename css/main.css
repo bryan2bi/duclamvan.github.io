@@ -38,7 +38,7 @@ select {
 /* HEADER
 ========================= */
 #header {
-  background: url("../images/featured-final.png") no-repeat;
+  background: url("../images/featured-final.png") no-repeat fixed;
   background-size: cover;
   color: #ecf0f1;
   font-size: 1.2rem;

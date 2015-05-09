@@ -5,7 +5,7 @@ Error: Undefined variable: "$clouds".
 35: 	// background : -moz-linear-gradient(50% -4.49% -90deg,rgba(52, 48, 81, 1) 28.49%,rgba(47, 44, 75, 1) 38.34%,rgba(31, 31, 55, 1) 78.77%,rgba(31, 31, 55, 1) 100%);
 36: 	// background : -o-linear-gradient(-90deg, rgba(52, 48, 81, 1) 28.49%, rgba(47, 44, 75, 1) 38.34%, rgba(31, 31, 55, 1) 78.77%, rgba(31, 31, 55, 1) 100%);
 37: 	// background : -webkit-linear-gradient(-90deg, rgba(52, 48, 81, 1) 28.49%, rgba(47, 44, 75, 1) 38.34%, rgba(31, 31, 55, 1) 78.77%, rgba(31, 31, 55, 1) 100%);
-38: 	background: url('../images/featured-final.png') no-repeat;
+38: 	background: url('../images/featured-final.png') no-repeat fixed;
 39: 	background-size: cover;
 40: 	color: $clouds;
 41: 	font-size: rem(19.2);
@@ -62,4 +62,4 @@ C:/Program Files (x86)/Koala/bin/sass:18:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$clouds\".\A         on line 40 of C:\Users\VanDuyet\Documents\GitHub\duclamvan.github.io\scss\pages\homepage.scss\A \A 35: 	// background : -moz-linear-gradient(50% -4.49% -90deg,rgba(52, 48, 81, 1) 28.49%,rgba(47, 44, 75, 1) 38.34%,rgba(31, 31, 55, 1) 78.77%,rgba(31, 31, 55, 1) 100%);\A 36: 	// background : -o-linear-gradient(-90deg, rgba(52, 48, 81, 1) 28.49%, rgba(47, 44, 75, 1) 38.34%, rgba(31, 31, 55, 1) 78.77%, rgba(31, 31, 55, 1) 100%);\A 37: 	// background : -webkit-linear-gradient(-90deg, rgba(52, 48, 81, 1) 28.49%, rgba(47, 44, 75, 1) 38.34%, rgba(31, 31, 55, 1) 78.77%, rgba(31, 31, 55, 1) 100%);\A 38: 	background: url('../images/featured-final.png') no-repeat;\A 39: 	background-size: cover;\A 40: 	color: $clouds;\A 41: 	font-size: rem(19.2);\A 42: 	height: $headerheight;\A 43: 	padding-top: rem(16);\A 44: 	position: relative;\A 45: }"; }
+  content: "Error: Undefined variable: \"$clouds\".\A         on line 40 of C:\Users\VanDuyet\Documents\GitHub\duclamvan.github.io\scss\pages\homepage.scss\A \A 35: 	// background : -moz-linear-gradient(50% -4.49% -90deg,rgba(52, 48, 81, 1) 28.49%,rgba(47, 44, 75, 1) 38.34%,rgba(31, 31, 55, 1) 78.77%,rgba(31, 31, 55, 1) 100%);\A 36: 	// background : -o-linear-gradient(-90deg, rgba(52, 48, 81, 1) 28.49%, rgba(47, 44, 75, 1) 38.34%, rgba(31, 31, 55, 1) 78.77%, rgba(31, 31, 55, 1) 100%);\A 37: 	// background : -webkit-linear-gradient(-90deg, rgba(52, 48, 81, 1) 28.49%, rgba(47, 44, 75, 1) 38.34%, rgba(31, 31, 55, 1) 78.77%, rgba(31, 31, 55, 1) 100%);\A 38: 	background: url('../images/featured-final.png') no-repeat fixed;\A 39: 	background-size: cover;\A 40: 	color: $clouds;\A 41: 	font-size: rem(19.2);\A 42: 	height: $headerheight;\A 43: 	padding-top: rem(16);\A 44: 	position: relative;\A 45: }"; }
